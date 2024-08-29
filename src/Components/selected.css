@@ -1,0 +1,35 @@
+.selected-project-container{
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    min-width: 300px;
+    width: 50%;
+    margin-top: 20px;
+    padding: 0 50px;
+}
+.selected-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-top: 20px; */
+  padding: 0;
+    margin: 0;
+}
+
+.selected-details h2 {
+  font-size: 1.5rem;
+  /* color: #f1f1f1; */
+  margin: 0;
+}
+.delete-button{
+  background-color: rgb(92, 55, 55);
+  color: rgb(141, 130, 130);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.delete-button:hover{
+  background-color: rgb(116, 53, 53);
+}

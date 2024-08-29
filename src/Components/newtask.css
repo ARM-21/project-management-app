@@ -1,0 +1,42 @@
+.tasks-container-for-project input{
+outline: none;
+border:none;
+border-radius: 10px;
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+background-color: rgb(129, 151, 144);
+padding: 8px 15px;
+font-size: 1.5rem;
+}
+.input-section-for-tasks {
+display: flex;
+gap:5px
+}
+.tasks-container-for-project ul{
+    list-style-type: none;
+    padding: 0;
+}
+.tasks-container-for-project ul li {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    background-color: rgb(79, 71, 127);
+    box-shadow: 0px 0px 10px 0px rgba(37, 29, 29, 0.1);
+    font-size: 2rem;
+}
+
+.tasks-container-for-project button{
+    font-size: inherit;
+    padding: 0 10px;
+    border-radius: 10px;
+    /* background-color: rgb(149, 29, 214); */
+    background: transparent;
+    color: white;
+}
+.tasks-container-for-project button:hover{
+  
+    color: rgb(232, 232, 232);
+}
